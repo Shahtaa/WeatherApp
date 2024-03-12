@@ -22,7 +22,6 @@ const App = () => {
       setError('Please enter a city name'); // Set error message
       return; // Exit function
     }
-
     try {
       // Make API request to fetch weather data for the entered city
       const response = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}`);
