@@ -1,0 +1,43 @@
+/* App.css */
+
+.container {
+  max-width: 400px; /* Set maximum width for the container */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px; /* Add padding around the container */
+  text-align: center; /* Center align text within the container */
+}
+
+.title {
+  margin-bottom: 20px; /* Add margin below the title */
+  font-size: 24px; /* Increase font size for the title */
+}
+
+.input {
+  width: calc(100% - 100px); /* Set input width to fill available space */
+  padding: 10px; /* Add padding to the input */
+  margin-bottom: 10px; /* Add margin below the input */
+  border: 1px solid #ced4da; /* Add border to the input */
+  border-radius: 5px; /* Add border radius to the input */
+}
+
+.button {
+  padding: 10px 20px; /* Add padding to the button */
+  font-size: 16px; /* Set font size for the button */
+  font-weight: bold; /* Make button text bold */
+  text-transform: uppercase; /* Convert button text to uppercase */
+  color: #fff; /* Set text color to white */
+  background-color: #007bff; /* Set background color for the button */
+  border: none; /* Remove border from the button */
+  border-radius: 5px; /* Add border radius to the button */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  transition: background-color 0.3s ease; /* Add transition effect for background color */
+}
+
+.button:hover {
+  background-color: #0056b3; /* Change background color on hover */
+}
+
+.error {
+  color: #dc3545; /* Set text color for error message */
+  margin-top: 10px; /* Add margin above the error message */
+}
